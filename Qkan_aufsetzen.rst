@@ -151,6 +151,10 @@ Herzlichen Glückwunsch Sie haben QKan erfolgreich auf Ihren Computer installier
 
 (Schritt 4: QKan Eingabemasken für QGIS) - Baustelle
 
+.. _Home: https://www.fh-aachen.de/fileadmin/people/fb02_hoettges/QKan/Doku/index.html	
+	
+Zurück zur Startseite kommen Sie hier: Home_.
+
 
 
 
