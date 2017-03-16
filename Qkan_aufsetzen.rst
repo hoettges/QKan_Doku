@@ -150,7 +150,7 @@ Nun sollten diese drei Plugins in ihrer QGIS Menüleiste zur verfügung stehen.
 Herzlichen Glückwunsch Sie haben QKan erfolgreich auf Ihren Computer installiert!
 
 
-.. _Startseite: https://www.fh-aachen.de/fileadmin/people/fb02_hoettges/QKan/Doku/index.html	
+.. _Startseite: index.html	
 	
 Zurück zur Startseite_.
 

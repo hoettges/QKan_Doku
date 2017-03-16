@@ -14,7 +14,7 @@ hydrodynamischen Simulationen wurden mehrere Plugins entwickelt.
 .. automodule:: fbfunc
     :members:
 
-.. _Startseite: https://www.fh-aachen.de/fileadmin/people/fb02_hoettges/QKan/Doku/index.html	
+.. _Startseite: index.html
 	
 Zurück zur Startseite_.
 
