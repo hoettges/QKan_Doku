@@ -149,7 +149,6 @@ Nun sollten diese drei Plugins in ihrer QGIS Menüleiste zur verfügung stehen.
 
 Herzlichen Glückwunsch Sie haben QKan erfolgreich auf Ihren Computer installiert!
 
-(Schritt 4: QKan Eingabemasken für QGIS) - Baustelle
 
 .. _Home: https://www.fh-aachen.de/fileadmin/people/fb02_hoettges/QKan/Doku/index.html	
 	
