@@ -152,16 +152,6 @@ Herzlichen Glückwunsch Sie haben QKan erfolgreich auf Ihren Computer installier
 (Schritt 4: QKan Eingabemasken für QGIS) - Baustelle
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.. _Startseite: index.html	
+	
+Zurück zur Startseite_.
