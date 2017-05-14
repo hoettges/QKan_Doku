@@ -14,9 +14,10 @@ Die aktuelle Version von QGIS finden Sie hier: QGIS_ oder falls dieser Link nich
 
 .. _QGIS: http://www.QGIS.org/de/site/forusers/download.html
 
-Die aktuelle Version von QGIS (Stand Februar 2017) trägt die Versionsnummer 2.18.3. Durch Klicken auf den "Jetzt herunterladen"-Button auf der Startseite werden Sie sofort
+Die aktuelle Version von QGIS (Stand Februar 2017) trägt die Versionsnummer 2.18.7. (Beachten Sie bitte den Hinweis zur Version unter Kap. 3.3.) Durch Klicken auf den 
+"Jetzt herunterladen"-Button auf der Startseite werden Sie sofort 
 zur Downloadseite weitergeleitet. Gehen Sie vorher sicher, dass Ihnen genügend freier Speicherplatz zur Verfügung steht, da die QGIS-Installation etwa 1,5 GB 
-Speicherplatz einnehmen wird. Wählen Sie in Abhänigkeit von Ihrem Betriebssystem und Ihrer Betriebssystem-Version einen Downloadlink aus. In diesem Beispiel verwenden wir die
+Speicherplatz einnehmen wird. Wählen Sie in Abhänigkeit von Ihrem Betriebssystem und Ihrer Betriebssystem-Version einen Downloadlink aus. In diesem Beispiel verwenden wir die 
 unter dem Punkt "Für Windows herunterladen" zu findende Version "Eigenständige QGIS-Installation Version 2.18 (64bit)":
 
 .. image:: .\QKan_Bilder\QGIS_herunterladen.png
@@ -62,7 +63,7 @@ haben.
 Als nächstes wird Firebird einen Startmenü-Ordner anlegen. Dieser wird nicht unbedingt benötigt und kann durch die Checkbox "Keinen Order im Startmenü erstellen"
 verhindert werden. Anschließend wird eine Abfrage über die zusätzlichen Aufgaben von Firebird erscheinen. Gehen Sie sicher, dass Ihre Auswahl wie folgt aussieht:
 
-.. image:: .\QKan_Bilder\firebird_aufgaben_anwendung.png
+.. image:: .\QKan_Bilder\firebird_aufgaben_dienst.png
 
 Bevor die Installation fertiggestellt werden kann, werden noch zwei Checkboxen erscheinen:
 
@@ -122,11 +123,12 @@ wechseln, in das Sie im vorherigen Schritt die Installationsdateien entpackt hat
 .. image:: .\QKan_Bilder\OSGeo4Wshellcd.png
 
 Schritt 3.3: pip und matplotlib
---------------------------
+-------------------------------
 
-Das Modul matplotlib wird für die grafische Darstellung benötigt und ist in QGIS nur in einer älteren Version enthalten. Zu seiner Aktualisierung muss zusätzlich 
-das Programm pip aktualisiert werden. 
-Voraussetzung für  Die Aktualisierung dieses Modul ist Voraussetzung für die Aktualisierung verschiedener weiterer Python-Module. 
+.. note:: Dieses Kapitel ist nur Für QGIS-Versionen vor 2.18.6 relevant, die noch eine ältere Version der Bibliothek "matplotlib" enhalten. Bei den neueren Versionen ist 
+eine Aktualsierung von "matplotlib" nicht notwendig, so dass sie alle Schritte in diesem Kapitel überspringen und mit Kap. 4 fortfahren können. 
+
+Das Modul matplotlib wird für die grafische Darstellung benötigt. Zu seiner Aktualisierung müssen zusätzlich die Programme "pip" sowie "setuptools" aktualisiert werden. 
 
 Geben Sie nacheinander im Fenster "OSGeo4W Shell" folgende Befehle ein:
 
@@ -142,7 +144,7 @@ Schritt 4: QKan Plugins für QGIS
 
 Nachdem QGIS und Firebird erfolgreich auf Ihrem System installiert wurden, können nun die QKan spezifischen Erweiterungen für QGIS geladen werden. 
 
-Als nächstes benötigen Sie die QKan spezifischen Plugins für QGIS. Diese erhalten Sie auf dem github Verzeichnis von Professor Jörg Höttges. Einen Link dazu
+Als nächstes benötigen Sie die QKan spezifischen Plugins für QGIS. Diese erhalten Sie auf dem github Verzeichnis von Jörg Höttges. Einen Link dazu
 finden Sie hier: Höttges_ oder auf github.com/hoettges. Dort finden Sie aktuell vier Plugins (stand  Feburuar 2017) und die extra für die Nutzung optimierten
 Eingabemasken. Laden Sie alle Dateien herrunter, welche mit der Bezeichnung "QKan" beginnen. Vorerst widmen wir uns allerdings nur den Plugins: 
 
@@ -150,8 +152,8 @@ Eingabemasken. Laden Sie alle Dateien herrunter, welche mit der Bezeichnung "QKa
 
 .. image:: .\QKan_Bilder\hoettges.png
 
-Auch diese Ordner erhalten Sie wieder in einem .zip Archiv, welches Sie zuerst entpacken müssen. Um die QKan Plugins in QGIS nutzen zu können müssen diese
-erstmal in das Pluginverzeichnis von QGIS verschoben und anschließend in QGIS geladen werden. Die Verzeichnisstruktur von QGIS wird sich automatisch nach
+Auch diese Ordner erhalten Sie wieder in einem .zip Archiv, welches Sie zuerst entpacken müssen. Um die QKan Plugins in QGIS nutzen zu können, müssen diese
+erstmal in das Pluginverzeichnis von QGIS verschoben und umbenannt werden, indem Sie an den Verzeichnisnamen die Endung -master entfernen. Die richtigen   und anschließend in QGIS geladen werden. Die Verzeichnisstruktur von QGIS wird sich automatisch nach
 dem ersten Start der Anwendung erstellen, sollten Sie dies in Schritt 1 also noch nicht ausprobiert haben, müssen Sie dies jetzt nachholen. Das Automatisch,
 erzeugte Verzeichnis "C:\\Benutzer\\Benutzername\\.qgis2\\python" sollte nun vorhanden sein. In diesem Verzeichnis können nun alle Plugins in einem
 Unterverzeichhnis mit dem Namen "plugins" eingefügt werden. Zu diesem Zeitpunkt sollte dieses "plugin" Unterverzeichhnis noch nicht erstellt worden sein. 
