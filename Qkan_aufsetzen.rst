@@ -41,7 +41,7 @@ Schritt 2: Firebird Installieren
 --------------------------------
 
 Vor der Installation der Plugins, die für QKan entwickelt wurden, muss zunächst die Datenbankanwendung Firebird installiert werden. Sie wird für den 
-Zugriff auf die HYSTEM-EXTRAN-Dateien (*.idbf) benötigt. Einen Link zum Download finden sie hier: Firebird_ oder Sie besuchen www.firebirdsql.org und 
+Zugriff auf die HYSTEM-EXTRAN-Dateien (\*.idbf) benötigt. Einen Link zum Download finden sie hier: Firebird_ oder Sie besuchen www.firebirdsql.org und 
 wählen dort unter dem Reiter "Downloads" den Punkt Firebird 2.5 aus.
 
 .. _firebird: http://www.firebirdsql.org/en/firebird-2-5-6/
@@ -125,8 +125,7 @@ wechseln, in das Sie im vorherigen Schritt die Installationsdateien entpackt hat
 Schritt 3.3: pip und matplotlib
 -------------------------------
 
-.. note:: Dieses Kapitel ist nur Für QGIS-Versionen vor 2.18.6 relevant, die noch eine ältere Version der Bibliothek "matplotlib" enhalten. Bei den neueren Versionen ist 
-eine Aktualsierung von "matplotlib" nicht notwendig, so dass sie alle Schritte in diesem Kapitel überspringen und mit Kap. 4 fortfahren können. 
+.. note:: Dieses Kapitel ist nur Für QGIS-Versionen vor 2.18.6 relevant, die noch eine ältere Version der Bibliothek "matplotlib" enhalten. Bei den neueren Versionen ist eine Aktualsierung von "matplotlib" nicht notwendig, so dass sie alle Schritte in diesem Kapitel überspringen und mit Kap. 4 fortfahren können. 
 
 Das Modul matplotlib wird für die grafische Darstellung benötigt. Zu seiner Aktualisierung müssen zusätzlich die Programme "pip" sowie "setuptools" aktualisiert werden. 
 
@@ -178,4 +177,6 @@ Nun sollten diese drei Plugins in ihrer QGIS Menüleiste zur verfügung stehen.
 
 Herzlichen Glückwunsch Sie haben QKan erfolgreich auf Ihren Computer installiert!
 
-(Schritt 4: QKan Eingabemasken für QGIS) - Baustelle
+
+.. warning:: Die ersten Anwender von QKan berichten davon, dass die Firebird-Datenbank in der hier verwendeten lizenzkostenfreien Version Probleme verursacht, wenn sich die Hystem-Extran-Datenbankdatei (Kanalnetz- oder Ergebnisdaten) in einem Netzwerk-Verzeichnis befindet. In diesem Fall hilft es, die Datei in ein lokales Verzeichnis (auf C:) zu verschieben, und später nach Beendigung der Arbeit wieder zurück zu verschieben. 
+
