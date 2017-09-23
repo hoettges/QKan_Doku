@@ -10,7 +10,7 @@ QKan - Kanalkataster mit QGIS!
     :maxdepth: 2
 
     Qkan_aufsetzen
-    qkan
+    Qkan_Videoanleitungen
 
 Register und Tabellen
 =====================
