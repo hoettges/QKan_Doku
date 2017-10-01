@@ -22,10 +22,7 @@
 # sys.path.insert(0, os.path.abspath('.'))
 
 import sys
-sys.path.insert(0,'C:/Users/hoettges/.qgis2/python/plugins')
-sys.path.insert(0,'C:/Users/hoettges/.qgis2/python/plugins/QKan_ImportHE')
-sys.path.insert(0,'C:/Users/hoettges/.qgis2/python/plugins/QKan_Database')
-sys.path.append('C:/Users/hoettges/.qgis2/python/plugins/QKan_Flaechenbilanz')
+sys.path.insert(0,'C:/Users/hoettges/.qgis2/python/plugins/QKan')
 sys.path.append('C:/FHAC/jupiter/hoettges/team_data/Kanalprogramme/k_qkan/sphinx/source/QKan_Installation')
 
 import mock

@@ -143,35 +143,35 @@ Schritt 4: QKan Plugins für QGIS
 
 Nachdem QGIS und Firebird erfolgreich auf Ihrem System installiert wurden, können nun die QKan spezifischen Erweiterungen für QGIS geladen werden. 
 
-Als nächstes benötigen Sie die QKan spezifischen Plugins für QGIS. Diese erhalten Sie auf dem github Verzeichnis von Jörg Höttges. Einen Link dazu
-finden Sie hier: Höttges_ oder auf github.com/hoettges. Dort finden Sie aktuell vier Plugins (stand  Feburuar 2017) und die extra für die Nutzung optimierten
-Eingabemasken. Laden Sie alle Dateien herrunter, welche mit der Bezeichnung "QKan" beginnen. Vorerst widmen wir uns allerdings nur den Plugins: 
+Als nächstes benötigen Sie die QKan spezifischen Plugins für QGIS. Diese erhalten Sie auf dem github Verzeichnis zu QKan. Einen Link dazu
+finden Sie hier: Höttges_ oder auf github.com/hoettges. Dort finden Sie zwei Repositories: "QKan" und "QKan_Doku". 
 
 .. _Höttges: https://github.com/hoettges
 
-.. image:: .\QKan_Bilder\hoettges.png
+.. image:: .\QKan_Bilder\github_hoettges.png
 
-Auch diese Ordner erhalten Sie wieder in einem .zip Archiv, welches Sie zuerst entpacken müssen. Um die QKan Plugins in QGIS nutzen zu können, müssen diese
-erstmal in das Pluginverzeichnis von QGIS verschoben und umbenannt werden, indem Sie an den Verzeichnisnamen die Endung -master entfernen. Die richtigen   und anschließend in QGIS geladen werden. Die Verzeichnisstruktur von QGIS wird sich automatisch nach
-dem ersten Start der Anwendung erstellen, sollten Sie dies in Schritt 1 also noch nicht ausprobiert haben, müssen Sie dies jetzt nachholen. Das Automatisch,
-erzeugte Verzeichnis "C:\\Benutzer\\Benutzername\\.qgis2\\python" sollte nun vorhanden sein. In diesem Verzeichnis können nun alle Plugins in einem
-Unterverzeichhnis mit dem Namen "plugins" eingefügt werden. Zu diesem Zeitpunkt sollte dieses "plugin" Unterverzeichhnis noch nicht erstellt worden sein. 
-Erstellen Sie also ein neues Verzeichnis mit dem Namen "plugins" und legen Sie die vier Plugin Ordner welche Sie von Github heruntergeladen haben dort ab.
+Wenn Sie auf "QKan" klicken, erscheint eine Liste von Verzeichnissen und Dateien. 
 
-.. image:: .\QKan_Bilder\QKan_plugin.png
+.. image:: .\QKan_Bilder\github_qkan.png
 
-Das Beispiel findet an Hand der vier ersten QKan Plugins statt: 
+Falls Sie die aktuelle Entwicklungsversion laden möchten, wechseln Sie zunächst in den entsprechenden Zweig ("Branch"). Unter der Schaltfläche
+"Branch" kann der gewünschte Zweig aufgewählt werden und anschließend mit der grünen Schaltfläche "Clone or download" heruntergeladen werden. 
+
+In dem heruntergeladenen Zip-Archiv befindet sich im oberen Ordner ("QKan-master" oder "QKan-dev") ein Unterordner "QKan". Dieser muss in das 
+Plugin-Verzeichnis von QGIS kopiert werden. Das Plugin-Verzeichnis unter dem Betriebssystem Windows ist üblicherweise 
+"C:\\{Benutzer}\\Benutzername\\.qgis2\\python\\plugins". Dabei ist {Benutzer} der Name, unter dem Sie am Computer angemeldet sind. Sollte das 
+Verzeichnis noch nicht existieren, müssen Sie es erstellen.
 
 .. image:: .\QKan_Bilder\QKan_plugins.png
 
-Anschließend öffnen Sie QGIS mit Hilfe der "QGIS Desktop 2.18.3 with GRASS 7.2.0" Verknüpfung, welche sich im QGIS Ordner auf Ihrem Desktop befinden sollte. 
+Anschließend öffnen Sie QGIS mit Hilfe der "QGIS Desktop 2.18.x with GRASS 7.x" Verknüpfung, welche sich im QGIS Ordner auf Ihrem Desktop befinden sollte. 
 Wenn Sie QGIS gestartet haben, wählen Sie in der Hauptmenüleiste unter dem Menüpunkt "Erweiterungen" den Unterpunkt 
 "Erweiterungen verwalten und installieren..." aus um folgendes Fenster zu öffnen:
 
 .. image:: .\QKan_Bilder\Qgis_erweiterungen.png
 
-Wählen Sie an der linken Seite den Reiter "Installiert" und gehen Sie sicher das an allen neu geladenen Plugins außer "Qkan_Database" das Kästchen ausgewählt ist.
-Nun sollten diese drei Plugins in ihrer QGIS Menüleiste zur verfügung stehen.
+Wählen Sie an der linken Seite den Reiter "Installiert" und setzen Sie den Haken vor dem Plugin "QKan". Nach dem Schließen dieses Fensters stehen 
+in QGIS ein Werkzeugkasten "QKan" mit mehreren Icons sowie ein Hauptmenü "QKan" mit mehreren Untermenüs zur Verfügung.  
 
 .. image:: .\QKan_Bilder\Qgis_menue.png
 
